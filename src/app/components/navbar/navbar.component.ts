@@ -13,6 +13,18 @@ export class NavbarComponent {
     {
       ruta: "/observable",
       nombre: "Observables"
+    },
+    {
+      ruta: "/observable-frio",
+      nombre: "Frio"
+    },
+    {
+      ruta: "/observable-caliente",
+      nombre: "Caliente"
+    },
+    {
+      ruta: "/operadores",
+      nombre: "Operadores"
     }
   ]
 }
