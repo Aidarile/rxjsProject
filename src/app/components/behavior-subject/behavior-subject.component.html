@@ -1,0 +1,9 @@
+<h1 class="text-center text-primary">Behavior Subject</h1>
+
+<input type="number" [(ngModel)]="valor" name="valor">
+<button class="btn btn-success" (click)="addValue(valor)">ADD</button>
+<button class="btn bg-danger" (click)="removeValue(valor)">REMOVE</button>
+
+<h3>Texto</h3>
+<button class="btn btn-secondary" (click)="ejemploBS()">ADD TEXT</button>
+<h4 class="text-info">{{myBehaviorSubject | async}}</h4>

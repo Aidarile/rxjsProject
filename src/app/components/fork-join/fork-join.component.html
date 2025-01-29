@@ -1,0 +1,12 @@
+<div class="row">
+    @for (pokemon of pokemons; track pokemon.name){
+    <div class="col-md-3">
+      <div class="card">
+        <img src = "{{pokemon.front_shiny}}" alt="" class="card-img-top">
+        <div class="card-body">
+          {{pokemon.name}}
+        </div>
+      </div>
+    </div>
+    }
+  </div>

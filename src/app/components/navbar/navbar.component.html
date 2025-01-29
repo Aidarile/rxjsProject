@@ -8,9 +8,16 @@
         <ul class="navbar-nav">
             @for (item of items; track $index) {
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" [routerLink]="item.ruta" routerLinkActive="active">{{item.nombre}}</a>
+                    <a class="nav-link active" aria-current="page" 
+                    [routerLink]="item.ruta" 
+                    routerLinkActive="active">{{item.nombre}}</a>
                   </li>
             }
+            <li class="nav-item">
+              <a class="nav-link" 
+              routerLink="behavior-subject" 
+              routerLinkActive="active">{{carrito}}</a>
+            </li>
         </ul>
       </div>
     </div>
